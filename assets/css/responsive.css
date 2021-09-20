@@ -1,0 +1,182 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+@media (min-width : 1024px) {
+    .grid__column-2-4 {
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 25%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .c-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .grid__row-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .product__title-text2 {
+        font-size: 25px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+        margin-bottom: 10px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Roboto';
+    }
+    .profile__title {
+        /* position: absolute; */
+        /* top: 30%; */
+        right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+        padding-top: 50%;
+    }
+    .container__discover {
+        margin-top: 120%;
+    }
+    .profile__title-me {
+        margin-bottom: 10px;
+        padding-left: 80px;
+    }
+    .profile__title-text1 {
+        color: #d3b673;
+        font-size: 2rem;
+        margin-bottom: 27px;
+        font-weight: bold;
+        text-align: center;
+        font-family: cursive;
+    }
+    .profile__title-text2 {
+        font-size: 1.6rem;
+        font-weight: bolder;
+        font-family: cursive;
+        text-align: center;
+        color: var(--black-color);
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+    }
+    .profile__title-btn {
+        height: 4rem;
+        color: var(--white-color);
+        font-size: 1.6rem;
+        padding: 8px 16px;
+        border: 1px solid #d3b673;
+        background: #d3b673;
+        cursor: pointer;
+        margin-left: 36%;
+    }
+    .profile__title-description {
+        text-align: center;
+        /* font-family: Muli; */
+        color: #333333;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 24px 0;
+        line-height: 1.4;
+        /* padding-left: 105px; */
+        display: flex;
+        /* margin-left: 79%; */
+        /* display: contents; */
+        /* position: relative; */
+        margin-left: 34%;
+    }
+    .container__discover-title--text1 {
+        color: #d3b673;
+        font-size: 2rem;
+        font-family: monospace;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        /* align-items: center; */
+        text-align: center;
+    }
+    .container__discover-title--text2 {
+        font-size: 1.4rem;
+        text-align: center;
+        color: #000000;
+        letter-spacing: 1.0px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        line-height: 1.2;
+        font-family: cursive;
+    }
+    .container__discover-title-icon--img {
+        height: 2rem;
+    }
+    .container__discover-title-text3 {
+        font-size: 1.2rem;
+        margin-left: 8px;
+        font-weight: 350;
+        align-items: c;
+        /* text-align: center; */
+    }
+    .container__discover-content {
+        /* display: flex; */
+        margin-top: 5rem;
+        /* margin: 40px; */
+        /* margin-left: -7%; */
+    }
+    .c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;    /* kich thuoc chieu ngang vuot qua-> xuog dong */
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    .container__discover-content {
+        display: flex;
+        margin-top: 5rem;
+        /* margin: 40px; */
+        /* margin-left: -7%; */
+        flex-direction: column;
+    }
+    .container__discover-img-icon {
+        width: 200%;
+        height: 24.7rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .container__discover-img-text {
+        margin-left: 0px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #282828;
+        height: 60px;
+        padding-top: 15px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        width: 200%;
+    }
+}
