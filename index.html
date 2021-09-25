@@ -8,182 +8,190 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <!-- <link rel="stylesheet" href="./assets/css/grid.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
 <body>
     <div class="app">
-        <div class="header">
-            <div class="header__navbar">
-                <!--header__left -->
-                <ul class="header__navbar-left">
-                    <li class="header__navbar-item">
-                        <a href="" class="header__navbar-contact ">
-                            <span class="header__navbar-contact--icon hide-on-mobile">
-                                <i class="fas fa-envelope-square"></i>
-                            </span>
-                            <span class="header__navbar-contact--text hide-on-mobile">tdirec@matha.com</span>
-                        </a>
-
+        <header class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <!--header__left -->
+                    <ul class="header__navbar-left">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-contact ">
+                                <span class="header__navbar-contact--icon hide-on-mobile">
+                                    <i class="fas fa-envelope-square"></i>
+                                </span>
+                                <span class="header__navbar-contact--text hide-on-mobile">tdirec@matha.com</span>
+                            </a>
+    
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-contact">
+                                <span class="header__navbar-contact--icon">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                                <span class="header__navbar-contact--text">036.27.3336</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-contact">
+                                <span class="header__navbar-contact--icon hide-on-mobile m-0">
+                                    <i class="fas fa-map-marker-alt "></i>
+                                </span>
+                                <span class="header__navbar-contact--text hide-on-mobile m-0">25 Long Tho, Nhon Trach, Dong Nai</span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <!-- header__right -->
+                    <ul class="header__navbar-right">
+                        <div class="header__navbar-social">
+                            <li class="header__navbar-social-icon">
+                                <a href="" class="header__navbar-social-link c-0">
+                                    <i class="header__navbar-social-icon--img fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+    
+                            <li class="header__navbar-social-icon">
+                                <a href="" class="header__navbar-social-link c-0">
+                                    <i class="header__navbar-social-icon--img fab fa-pinterest-square"></i>
+                                </a>
+                            </li>
+    
+                            <li class="header__navbar-social-icon">
+                                <a href="https://www.facebook.com/tuc.trinhvan.79" class="header__navbar-social-link ">
+                                    <i class="header__navbar-social-icon--img fab fa-facebook-square "></i>
+                                </a>
+                            </li>
+    
+                            <li class="header__navbar-social-icon">
+                                <a href="" class="header__navbar-social-link ">
+                                    <i class="header__navbar-social-icon--img fab fa-instagram-square"></i>
+                                </a>
+                            </li>
+    
+                        </div>
+    
+                        <div class="header__navbar-language hide-on-mobile">
+                            <span class="header__navbar-language-select">Vietnamese</span>
+                            <i class="header__navbar-language-icon fas fa-chevron-down">
+                                <!-- <i class="fas fa-chevron-down"></i> -->
+                            </i>
+                            <ul class="header__navbar-language-option">
+                                <li class="header__navbar-language-text">English</li>
+                            </ul>
+                        </div>
+    
+                        <div class="header__navbar-login hide-on-mobile">
+                            <a href="" class="header__navbar-login-icon">
+                                <i class="header__navbar-login-icon--img fas fa-user-tie"></i>
+                            </a>
+                            <ul class="header__navbar-login-menu">
+    
+                            </ul>
+                        </div>
+                        
+                    </ul>
+    
+                <!-- End navbar  -->
+                </div>
+    
+                <div class="header__logo">
+                    <a href="" class="header__logo-img">
+                        <img src="./assets/img/logo_miumiu.png" alt="" class="header__logo-img--sologan">
+                    </a>
+                </div>
+    
+                <ul class="header__menu hide-on-mobile">
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text header__menu-item--text-first">Trang chủ</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="" class="header__navbar-contact">
-                            <span class="header__navbar-contact--icon">
-                                <i class="fas fa-phone"></i>
-                            </span>
-                            <span class="header__navbar-contact--text">036.27.3336</span>
-                        </a>
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text">Giới thiệu</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="" class="header__navbar-contact">
-                            <span class="header__navbar-contact--icon hide-on-mobile">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </span>
-                            <span class="header__navbar-contact--text hide-on-mobile">25 Long Tho, Nhon Trach, Dong Nai</span>
-                        </a>
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text">Sản phẩm</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text">Cửa hàng</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text">Tuyển dụng</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-item--text">Về chúng tôi</a>
                     </li>
                 </ul>
-
-                <!-- header__right -->
-                <ul class="header__navbar-right">
-                    <div class="header__navbar-social">
-                        <li class="header__navbar-social-icon">
-                            <a href="" class="header__navbar-social-link">
-                                <i class="header__navbar-social-icon--img fab fa-twitter-square"></i>
-                            </a>
-                        </li>
-
-                        <li class="header__navbar-social-icon">
-                            <a href="" class="header__navbar-social-link">
-                                <i class="header__navbar-social-icon--img fab fa-pinterest-square"></i>
-                            </a>
-                        </li>
-
-                        <li class="header__navbar-social-icon">
-                            <a href="" class="header__navbar-social-link">
-                                <i class="header__navbar-social-icon--img fab fa-facebook-square"></i>
-                            </a>
-                        </li>
-
-                        <li class="header__navbar-social-icon">
-                            <a href="" class="header__navbar-social-link">
-                                <i class="header__navbar-social-icon--img fab fa-instagram-square"></i>
-                            </a>
-                        </li>
-
-                    </div>
-
-                    <div class="header__navbar-language hide-on-mobile">
-                        <span class="header__navbar-language-select">Vietnamese</span>
-                        <i class="header__navbar-language-icon fas fa-chevron-down">
-                            <!-- <i class="fas fa-chevron-down"></i> -->
-                        </i>
-                        <ul class="header__navbar-language-option">
-                            <li class="header__navbar-language-text">English</li>
-                        </ul>
-                    </div>
-
-                    <div class="header__navbar-login hide-on-mobile">
-                        <a href="" class="header__navbar-login-icon">
-                            <i class="header__navbar-login-icon--img fas fa-user-tie"></i>
-                        </a>
-                        <ul class="header__navbar-login-menu">
-
-                        </ul>
-                    </div>
-                    
-                </ul>
-
-            <!-- End navbar  -->
             </div>
-
-            <div class="header__logo">
-                <a href="" class="header__logo-img">
-                    <img src="./assets/img/logo_miumiu.png" alt="" class="header__logo-img--sologan">
-                </a>
-            </div>
-
-            <ul class="header__menu hide-on-mobile">
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text header__menu-item--text-first">Trang chủ</a>
-                </li>
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text">Giới thiệu</a>
-                </li>
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text">Sản phẩm</a>
-                </li>
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text">Cửa hàng</a>
-                </li>
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text">Tuyển dụng</a>
-                </li>
-
-                <li class="header__menu-item">
-                    <a href="" class="header__menu-item--text">Về chúng tôi</a>
-                </li>
-            </ul>
-        </div>
+        </header>
 
         <div class="container">
-            <div class="slide hide-on-mobile">
-                <div class="slide__img">
-                    <!-- <img class="slide__img-link" src="https://vcdn-ngoisao.vnecdn.net/2015/12/29/Tan-Cuong-1700-1451383078.jpg" alt=""> -->
-                    <!-- <img class="slide__img-link" src="./assets/img/ms_banner_img1.jpg" alt="" class=""> -->
-                </div>
-                
-                <div class="slide__content">
-                    <h3 class="slide__content-text1">MiuMiu Tea</h3>
-
-                    <div class="slide__content-text2">
-                        Tại đây có trà <br>
-                        Ngon hơn người yêu cũ của bạn
+            <!-- Silde -->
+            <div class="grid">
+                <div class="slide c-0">
+                    <div class="slide__img">
+                        <!-- <img class="slide__img-link" src="https://vcdn-ngoisao.vnecdn.net/2015/12/29/Tan-Cuong-1700-1451383078.jpg" alt=""> -->
+                        <!-- <img class="slide__img-link" src="./assets/img/ms_banner_img1.jpg" alt="" class=""> -->
                     </div>
-
-                    <div class="slide__content-text3">
-                        Với sứ mệnh mang đến những ly nước ngon-bổ-rẻ
-                        <br>
-                        giúp bạn nhanh quên được người yêu cũ.
+                    
+                    <div class="slide__content">
+                        <h3 class="slide__content-text1">MiuMiu Tea</h3>
+    
+                        <div class="slide__content-text2">
+                            Tại đây có trà <br>
+                            Ngon hơn người yêu cũ của bạn
+                        </div>
+    
+                        <div class="slide__content-text3">
+                            Với sứ mệnh mang đến những ly nước ngon-bổ-rẻ
+                            <br>
+                            giúp bạn nhanh quên được người yêu cũ.
+                        </div>
+    
+                        <button class="btn-ordernow">
+                            Đặt hàng ngay
+                        </button>
+    
+                        <div class="slide__scroll">
+                            <i class="fas fa-mouse slide__scroll-icon"></i>
+                        </div>
+    
+                        <div class="slide__scroll-text">
+                            Cuộn xuống
+                        </div>
+    
                     </div>
-
-                    <button class="btn-ordernow">
-                        Đặt hàng ngay
-                    </button>
-
-                    <div class="slide__scroll">
-                        <i class="fas fa-mouse slide__scroll-icon"></i>
-                    </div>
-
-                    <div class="slide__scroll-text">
-                        Cuộn xuống
-                    </div>
-
                 </div>
             </div>
 
-            <div class="product">
-                <div class="product__title">
-                    <div class="product__title-text1">MiuMiu Menu </div>
-                    <div class="product__title-text2">Sản phẩm nổi bật</div>
-                    <div class="product__title-icon">
-                        <!-- <img class="product__title-icon-img" src="/assets/img/images.png" alt=""> -->
-                    </div>
-                </div>
+            <!-- List product -->
+            <div class="grid wide">
+                <div class="row">
 
-                <div class="product__menu">
-                    <div class="grid">
-                        <div class="product__menu-list">
-                            <div class="grid__row grid__row-mobile">
-                                <!-- list san pham -->
-                                <div class="grid__column-2-4 c-6 col">
+                    <!-- PRODUCT -->
+                    <div class="col l-12 m-12 c-12">
+                        <div class="product">
+                            <div class="product__title">
+                                <div class="product__title-text1">MiuMiu Menu </div>
+                                <div class="product__title-text2">Sản phẩm nổi bật</div>
+                                <div class="product__title-icon">
+                                    <!-- <img class="product__title-icon-img" src="/assets/img/images.png" alt=""> -->
+                                </div>
+                            </div>
+
+                            <div class="row sm-gutter">
+                                <!-- 8 San Pham -->
+                                <div class="col l-2-4 m- c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -199,15 +207,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-                                <!-- 2 -->
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -223,14 +231,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -246,14 +255,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -269,15 +279,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -293,15 +303,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -317,14 +327,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -340,15 +351,15 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
 
-
-
-                                <div class="grid__column-2-4 c-6 col  ">
+                                <div class="col l-2-4 m-4 c-6">
                                     <div class="product__cart">
                                         <div class="product__cart-tags">
                                             <span class="product__cart-tags-text">Hot</span>
@@ -364,52 +375,48 @@
                                             </div>
 
                                             <button class="product__cart-order">
-                                                <div class="product__cart-order-text">Đặt hàng</div>
+                                               <a href="https://www.facebook.com/tuc.trinhvan.79" class="order__product">
+                                                    <div class="product__cart-order-text">Đặt hàng</div>
+                                               </a>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
-
-
-                                
-
-                                
-                                    
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- profile -->
-            <div class="container__profile">
-                <div class="grid">
-                    <div class="grid__row-profile">
-                        <div class="profile">
-                            <img class="profile__img" src="./assets/img/img__profile.png" alt="">
-                            <div class="profile__title">
-                                <div class="profile__title-me">
-                                    <div class="profile__title-text1">MiuMiu Story</div>
-                                    <div class="profile__title-text2">Về chúng tôi</div>
-                                    <div class="profile__title-icon">
-                                        <!-- <img src="/assets/img/Ảnh chụp màn hình 2021-09-15 123845.png" alt="" class="profile__title-img"> -->
-                                    </div>
+            <!-- Profile -->
+            <div class="grid wide">
+                <div class="container__profile">
+                    <div class="profile">
+                        <img class="profile__img" src="./assets/img/img__profile.png" alt="">
+                        <div class="profile__title">
+                            <div class="profile__title-me">
+                                <div class="profile__title-text1">MiuMiu Story</div>
+                                <div class="profile__title-text2">Về chúng tôi</div>
+                                <div class="profile__title-icon">
+                                    <!-- <img src="/assets/img/Ảnh chụp màn hình 2021-09-15 123845.png" alt="" class="profile__title-img"> -->
                                 </div>
-                                <div class="profile__title-description">
-                                    Tất cả nguyên liệu đều từ thiên nhiên, tôi tự hào đem lại những ly trà sữa ngon - sạch - tươi cho quý khách.
-                                    Bên cạnh đó , quan trọng nhất với tối là hướng tới chất lượng phục vụ nhanh chóng để không làm ảnh hưởng tới thời gian của quý khách
-                                </div>
-                                <button class="profile__title-btn">Xem thêm</button>
                             </div>
+                            <div class="profile__title-description">
+                                Tất cả nguyên liệu đều từ thiên nhiên, tôi tự hào đem lại những ly trà sữa ngon - sạch - tươi cho quý khách.
+                                Bên cạnh đó , quan trọng nhất với tối là hướng tới chất lượng phục vụ nhanh chóng để không làm ảnh hưởng tới thời gian của quý khách
+                            </div>
+                            <button class="profile__title-btn">Xem thêm</button>
                         </div>
                     </div>
+
                 </div>
             </div>
 
-            <!-- Kham pha -->
-            <div class="container__discover">
-                <div class="grid">
-                    <div class="grid__row-profile">
+            <!-- Chanlanme -->
+            <div class="grid wide">
+                <div class="row">
+                    <div class="container__discover">
+                        
                         <!-- TITLE TEXT -->
                         <div class="container__discover-title">
                             <div class="container__discover-title--text1">Ống Kính MiuMiu Tea</div>
@@ -420,118 +427,111 @@
                             </div>
                         </div>
         
-                        <div class="grid wide">
-                            <div class="row">
-                                <div class="container__discover-content">
-                                    <!-- img1 -->
-                                    <div class="grid__row-50">
-                                        <div class="container__discover-img">
-                                            <img class="container__discover-img-icon" src="./assets/img/comingsoom.jpg" alt="">
-                                            <h4 class="container__discover-img-text container__discover-img-text1">Thông báo : MiuMiuTea sẽ mở bán lại vài ngày tới theo chế độ bình thường mới của chính phủ !</h4>
-                                        </div>
-                                    </div>
-        
-                                    <!-- img2 -->
-                                    <div class="grid__row-50">
-                                        <div class="container__discover-img">
-                                            <img class="container__discover-img-icon" src="./assets/img/Tuc_ship.jpg" alt="">
-                                            <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Công việc hàng ngày của tôi.</h4>
-                                        </div>
-                                    </div>
-        
-                                    
-                                    <div class="grid__row-50">
-                                        <div class="container__discover-img">
-                                            <img class="container__discover-img-icon" src="./assets/img/quan.jpg" alt="">
-                                            <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Quán nhỏ nhưng có võ.</h4>
-                                        </div>
-                                    </div>
-        
-                                        
-                                    <div class="grid__row-50">
-                                        <div class="container__discover-img">
-                                            <img class="container__discover-img-icon" src="./assets/img/che.jpg" alt="">
-                                            <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Nguyên liệu hoàn toàn từ thiên nhiên.</h4>
-                                        </div>
-                                    </div>
-        
-        
+                        <div class="row sm-gutter notify">
+                            <!-- img1 -->
+                            <div class="col l-6 m-6 c-12">
+                                <div class="container__discover-img">
+                                    <img class="container__discover-img-icon" src="./assets/img/comingsoom.jpg" alt="">
+                                    <h4 class="container__discover-img-text container__discover-img-text1">Thông báo : MiuMiuTea sẽ mở bán lại vài ngày tới theo chế độ bình thường mới của chính phủ !</h4>
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- img2 -->
+                            <div class="col l-6 m-6 c-12">
+                                <div class="container__discover-img">
+                                    <img class="container__discover-img-icon" src="./assets/img/Tuc_ship.jpg" alt="">
+                                    <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Công việc hàng ngày của tôi.</h4>
+                                </div>
+                            </div>
+
+                            
+                            <div class="col l-6 m-6 c-12">
+                                <div class="container__discover-img">
+                                    <img class="container__discover-img-icon" src="./assets/img/quan.jpg" alt="">
+                                    <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Quán nhỏ nhưng có võ.</h4>
+                                </div>
+                            </div>
+
+                                
+                            <div class="col l-6 m-6 c-12">
+                                <div class="container__discover-img">
+                                    <img class="container__discover-img-icon" src="./assets/img/che.jpg" alt="">
+                                    <h4 class="container__discover-img-text container__discover-img-text2">NOTE : Nguyên liệu hoàn toàn từ thiên nhiên.</h4>
+                                </div>
+                            </div>
+    
+    
+                            </div>
+                        </class>
+                            
+                        
+        
                     </div>
                 </div>
-
             </div>
-
         </div>
 
-        <div class="footer">
-            <div class="grid">
-                <div class="grid__row">
-                    <div class="grid__row_footer c-12">
-                        <div class="footer__info">
-                            <div class="footer__map">
-                                <div class="footer__map-name">MIUMIU TEA</div>
-                                <div class="footer__map-info">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    25 Long Thọ, Nhơn Trạch, Đồng Nai
-                                </div>
-                                <div class="footer__map-gmail">
-                                    <i class="fas fa-envelope-open"></i>
-                                    tuc@gmail.com</div>
-                                <div class="footer__map-call">
-                                    <i class="fas fa-phone-square-alt"></i>
-                                    0362733336
-                                </div>
-                                <div class="footer__map-web">
-                                    <i class="fas fa-blog"></i>
-                                    miumiutea.com
-                                </div>
+        <footer class="footer">
+            <div class="grid wide c-center">
+                <div class="row">          
+                    <div class="footer__info col l-4 m-4 c-12">
+                        <div class="footer__map">
+                            <div class="footer__map-name">MIUMIU TEA</div>
+                            <div class="footer__map-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                25 Long Thọ, Nhơn Trạch, Đồng Nai
+                            </div>
+                            <div class="footer__map-gmail">
+                                <i class="fas fa-envelope-open"></i>
+                                tuc@gmail.com</div>
+                            <div class="footer__map-call">
+                                <i class="fas fa-phone-square-alt"></i>
+                                0362733336
+                            </div>
+                            <div class="footer__map-web">
+                                <i class="fas fa-blog"></i>
+                                miumiutea.com
                             </div>
                         </div>
                     </div>
-                    <div class="grid__row_footer c-12">
-                        <div class="footer__info">
-                            <div class="footer__social">
-                                <div class="footer__social-title">MẠNG XÃ HỘI</div>
-                                <div class="footer__social-fb">
-                                    <i class="fab fa-facebook-square"></i>
-                                    Facebook
-                                </div>
-                                <div class="footer__social-insta">
-                                    <i class="fab fa-instagram-square"></i>
-                                    Instagram
-                                </div>
-                                <div class="footer__social-zalo">
-                                    <i class="fab fa-twitter-square"></i>
-                                    Twitter
-                                </div>
+                        
+                    <div class="footer__info col l-4 m-4 c-12">
+                        <div class="footer__social">
+                            <div class="footer__social-title">MẠNG XÃ HỘI</div>
+                            <div class="footer__social-fb">
+                                <i class="fab fa-facebook-square"></i>
+                                Facebook
+                            </div>
+                            <div class="footer__social-insta">
+                                <i class="fab fa-instagram-square"></i>
+                                Instagram
+                            </div>
+                            <div class="footer__social-zalo">
+                                <i class="fab fa-twitter-square"></i>
+                                Twitter
                             </div>
                         </div>
                     </div>
-                    <div class="grid__row_footer c-12">
-                        <div class="grid__row-footer">
-                            <div class="footer__info">
-                                <div class="footer__join">
-                                    <div class="footer__join-title">Kết nối với chúng tôi</div>
-                                    <input class="footer__join-in" type="text" placeholder="Email...">
-                                    <btn class="footer__join-btn">Gửi mail</btn>
-                                </div>
-                            </div>
+                
+                
+    
+                    <div class="footer__info col l-4 m-4 c-12">
+                        <div class="footer__join">
+                            <div class="footer__join-title">Kết nối với chúng tôi</div>
+                            <input class="footer__join-in" type="text" placeholder="Email...">
+                            <button class="footer__join-btn">Gửi mail </button>
                         </div>
                     </div>
+
+
                 </div>
+          
             </div>
 
             <div class="footer__bottom">
-                <div class="grid">
-                    <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty Công Nghệ MATHA</p>
-                </div>
+                <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty Công Nghệ MATHA</p>       
             </div>
-
-        </div>
+        </footer>
     </div>
-    
 </body>
 </html>

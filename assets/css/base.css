@@ -18,18 +18,18 @@ html {
     box-sizing: border-box;
 }
 
-.grid__full-width {
+/* .grid__full-width {
     width: 100%;
-}
-.grid {
+} */
+/* .grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-}
+} */
 
 .grid__row-profile {
-    padding-left: 80px;
-    padding-right: 80px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
     width: 100%;
 }
 
@@ -40,11 +40,11 @@ html {
     padding-right: 40px;
 }
 
-.grid__column-2-4 {
+/* .grid__column-2-4 {
     padding-left: 40px;
     padding-right: 40px;
     width: 25%;
-}
+} */
 
 .grid__row-50 {
     width: 50%;

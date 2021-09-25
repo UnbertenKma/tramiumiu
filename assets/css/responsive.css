@@ -70,7 +70,7 @@
     }
     .profile__title-text1 {
         color: #d3b673;
-        font-size: 2rem;
+        font-size: 3.4rem;
         margin-bottom: 27px;
         font-weight: bold;
         text-align: center;
@@ -93,7 +93,9 @@
         border: 1px solid #d3b673;
         background: #d3b673;
         cursor: pointer;
-        margin-left: 36%;
+        /* margin-left: 30%; */
+        left: 50%;
+        transform: translateX(45%);
     }
     .profile__title-description {
         text-align: center;
@@ -149,9 +151,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .row {
+    .row-mobile {
         display: flex;
-        flex-wrap: wrap;    /* kich thuoc chieu ngang vuot qua-> xuog dong */
+        flex-wrap: wrap;    
         margin-left: -80px;
         margin-right: -80px;
     }
@@ -178,5 +180,76 @@
         padding-left: 10px;
         margin-bottom: 30px;
         width: 200%;
+    }
+    .header__logo-img--sologan {
+        max-height: 150px;
+    }
+    .header__navbar-social-icon {
+        color: var(--white-color);
+        margin: 0px 3.5px;
+    }
+    .product__cart-order {
+        display: block;
+    }
+
+    .product__cart-content {
+        font-size: 1.3rem;
+    }
+
+    .product__cart-order {
+        font-size: 1.2rem;
+    }
+
+    .product__title-text2 {
+        margin-bottom: 3rem;
+    }
+
+    .notify {
+        /* left: 50%;
+        transform: translateX(-38%); */
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+
+    .container__discover-img-text {
+        width: 100%;
+    }
+
+    .container__discover-img-icon {
+        width: 100%;
+    }
+
+    .c-center {
+        text-align: center;
+    }
+
+    .footer__join-btn {
+        /* padding-left: 50px; */
+        width: 110px;
+        /* margin-left: 24%; */
+        /* height: 36px; */
+    }
+
+    .header__navbar-social-icon--img {
+        font-size: 2.5rem;
+        top: 50%;
+        transform: translateY(-8%);
+    }
+
+    .header__navbar-left {
+        padding-left: 2%;
+    }
+
+    /* .header__navbar-right {
+        padding-right: 2%;
+    } */
+
+    .header__navbar-social {
+        padding-right: 24px;
+    } 
+
+    .footer__join {
+        align-items: center;
+        /* width: 100px; */
     }
 }
